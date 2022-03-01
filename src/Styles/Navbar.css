@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.bg-custom{
+background: linear-gradient(45deg,rgb(59, 82, 83),rgb(206, 111, 162));
+box-sizing: border-box;
+box-shadow: 0px 10px 10px rgb(105, 78, 78);
+border-radius: 0px;
+}
+.bg-custom-2{
+    background: linear-gradient(45deg,rgb(75, 72, 69),rgb(201, 139, 139));
+box-sizing: border-box;
+box-shadow: 0px 4px 5px rgb(182, 235, 248);
+border-radius: 0px;
+}
+
+.btn-custom
+{
+    background: linear-gradient(45deg,rgb(60, 23, 63),rgb(51, 40, 40));
+    
+}
+.submit-btn
+{
+    background: linear-gradient(45deg,rgb(11, 95, 173),rgb(216, 131, 131));    
+    color: white !important;
+    box-shadow: 0 0px 5px rgb(233, 203, 157);
+}
+.text-blue{
+    color: rgb(126, 178, 226);
+}
+.text-red
+{
+    color: rgb(235, 146, 134);
+}
+.text-green
+{
+    color: rgb(92, 167, 108);
+}
+.error{
+    border:1px solid red;
+}
+.alert
+{
+    margin: 15px;
+    box-shadow: 0 0px 5px rgb(80, 78, 76);   
+}
